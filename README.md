@@ -37,7 +37,9 @@ public class WeatherStation {
         weatherData.setMeasurements(78, 90, 29.2f);
     }
 }
+```
 
+```java
 //Saída
 Current condition: 80.0Fº degress and 65.0 humididy
 Current condition: 82.0Fº degress and 70.0 humididy
