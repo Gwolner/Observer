@@ -10,7 +10,7 @@ A estação registra um valor para temperatura, para umidade e outro para press�
 
 O monitorador é composto por três telas (displays) principais, podendo ser expansível caso necessário. 
 
-Cada display possui uma finalidade: <b>Condições atuais</b> exibi__________ e _________ conforme registrado na estação climática, <b>Condições futuras</b> exibe uma previsão para__________ e _________ com base em um índice específico e <b>Status Geral</b> exibe as três grandezas.
+Cada display possui uma finalidade: <b>Condições atuais</b> exibi temperatura, umidade e pressão conforme registrado na estação climática, <b>Condições futuras</b> exibe uma previsão do tempo com base na pressão e um índice específico e <b>Status meteorológico</b> exibe as temperaturas média, mínima e máxima.
 
 Para uma nova tela ser adicionada no monitorador, basta que sua classe implemente a interface DisplayElement. 
 
