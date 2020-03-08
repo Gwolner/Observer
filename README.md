@@ -1,5 +1,7 @@
 # Weather Monitoring - Monitorador climático 
 
+Estação climática que simula o fornecimento de dados atmosféricos para displays de monitoramento sempre que estes dados sofrem alterações.
+
 ## Objetivo
 
 O objetivo deste projeto é permitir que os dados de uma estação climática (temperatura, umidade e pressão), sempre que sofrerem alterações, sejam disponibilizados para um monitorador climático.
