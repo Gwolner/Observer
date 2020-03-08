@@ -16,7 +16,7 @@ Para uma nova tela ser adicionada no monitorador, basta que sua classe implement
 
 ## GoF Observer
 
-Para permitir que cada display fosse atualizado com os novos valores foi utilizado o padrão comportamental Observer, um dos tipos de Padrões de Projetos conhecido como GoF(Gang of Four). Com ele é possível que uma classe (chamada de Subject) envie informações para várias outras classes (chamadas de Observer) e, sempre que essas informações sofrerem modificações, envie a nova informação para cada Observer.  
+Para permitir que cada display fosse atualizado com os novos valores foi utilizado o padrão comportamental Observer, um dos tipos de Padrões de Projetos conhecido como GoF (Gang of Four). Com ele é possível que uma classe (chamada de Subject) envie informações para várias outras classes (chamadas de Observer) e, sempre que essas informações sofrerem modificações, envie a nova informação para cada Observer.  
 
 Assim, cada Observer se mantem atualizado da informação fornecido pelo Subject a medida que ela for sendo alterada (Como no exemplo, a cada variação de temperatura, pressão ou umidade, as telas do monitorador são atualziadas).
 
