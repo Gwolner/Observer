@@ -1,12 +1,12 @@
 # Weather Monitoring - Monitorador climático 
 
-Estação climática que simula o fornecimento de dados atmosféricos para displays de monitoramento sempre que estes dados sofrem alterações.
+Estação climática que simula o fornecimento de dados atmosféricos para as telas de monitoramento sempre que estes dados sofrem alterações.
 
-## Objetivo
+## Problema
 
-O objetivo deste projeto é permitir que os dados de uma estação climática (temperatura, umidade e pressão), sempre que sofrerem alterações, sejam disponibilizados para um monitorador climático.
+A estação registra os valores para temperatura, umidade e pressão atmosférica e precisa enviá-los para o monitorador. Quando qualquer uma dessas grandezas variar, o novo valor registrado pela estação deverá ser enviado ao monitorador climático para que este possa tratá-los conforme necessário e exibir nas telas apropriadas.
 
-A estação registra um valor para temperatura, para umidade e outro para pressão e envia estes valores para o monitorador. Quando qualquer uma dessas grandezas variar, o novo valor registrado será enviado ao monitorador, a fim de atualizar seus dados.
+A grande questão é manter todas as telas atualizadas com estas variações, sem precisar realizar consultas constantes à estação climática. Para isto, o padrão Observer é usado neste projeto.
 
 ## Monitorador
 
