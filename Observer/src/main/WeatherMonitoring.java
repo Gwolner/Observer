@@ -6,7 +6,7 @@ import modelo.observer.StatisticDisplay;
 import modelo.subject.WeatherData;
 
 //Estação de Monitoramento Climático
-public class WeatherStation {
+public class WeatherMonitoring {
     public static void main(String[] args) {
         //Instanciando Monitorador
         WeatherData weatherData = new WeatherData();
