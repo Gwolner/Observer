@@ -19,10 +19,10 @@ public class WeatherMonitoring {
         
         //Simulando variações de valores na Estação
         weatherData.setMeasurements(80, 65, 30.4f);
-        System.out.println("\n"); //Pula uma linha
+        System.out.println(); //Pula uma linha
         
         weatherData.setMeasurements(82, 70, 29.2f);
-        System.out.println("\n"); //Pula uma linha
+        System.out.println(); //Pula uma linha
         
         weatherData.setMeasurements(78, 90, 29.2f);
         
