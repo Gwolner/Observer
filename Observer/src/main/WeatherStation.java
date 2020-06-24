@@ -1,4 +1,4 @@
-package observer;
+package main;
 
 import modelo.observer.CurrentConditionsDisplay;
 import modelo.observer.ForecastDisplay;
@@ -19,7 +19,11 @@ public class WeatherStation {
         
         //Simulando variações de valores na Estação
         weatherData.setMeasurements(80, 65, 30.4f);
+        System.out.println("\n"); //Pula uma linha
+        
         weatherData.setMeasurements(82, 70, 29.2f);
+        System.out.println("\n"); //Pula uma linha
+        
         weatherData.setMeasurements(78, 90, 29.2f);
         
         ccd.cancel();//Observador cancela atualziações
